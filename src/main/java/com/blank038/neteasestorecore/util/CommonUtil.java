@@ -23,7 +23,7 @@ public class CommonUtil {
 
     public static String signData(String source, String packetType) {
         // 请求头
-        String str = "POST" + packetType + source, key = NeteaseStoreCore.getString("store_option.key", false);
+        String str = "POST" + packetType + source, key = NeteaseStoreCore.getInstance().getStoreOption().getAppKey();
         try {
             Mac mac = Mac.getInstance("HmacSHA256");
             SecretKeySpec secretKey = new SecretKeySpec(key.getBytes(StandardCharsets.UTF_8), "HmacSHA256");
