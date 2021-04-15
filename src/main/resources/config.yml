@@ -4,8 +4,8 @@ store_option:
   key: "xxxxxxxxxx"
   # 链接地址
   url:
-    get_order: "http://gasproxy.mc.netease.com:60004/get-mc-item-order-list"
-    ship_order: "http://gasproxy.mc.netease.com:60004/ship-mc-item-order"
+    get_order: "获取订单地址"
+    ship_order: "通知收货地址"
 # 玩家收货冷却时间, 单位: 秒
 store_delay: 10
 # 收货执行的命令, 取第一条来进行判断
