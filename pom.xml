@@ -17,9 +17,9 @@
 
     <repositories>
         <repository>
-            <url>http://lss233.littleservice.cn/repositories/minecraft</url>
-            <id>lss233-minecraft</id>
-            <name>Lss233's Minecraft Repository</name>
+            <url>https://repo.mc9y.com/snapshots</url>
+            <id>ayStudio-Repository</id>
+            <name>AyStudio Repository</name>
         </repository>
     </repositories>
 
@@ -30,11 +30,9 @@
             <version>1.12.2-R0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>com.blank038</groupId>
-            <artifactId>PokemonAPI</artifactId>
-            <version>3.1.0-SNAPSHOT</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/libs/PokemonAPI-3.1.0-SNAPSHOT.jar</systemPath>
+            <groupId>com.aystudio.core</groupId>
+            <artifactId>AyCore</artifactId>
+            <version>1.0.3-BETA</version>
         </dependency>
     </dependencies>
 

@@ -1,7 +1,7 @@
 name: NeteaseStoreCore
 main: com.blank038.neteasestorecore.NeteaseStoreCore
 depend:
-  - PokemonAPI
+  - AyCore
 version: ${version}
 commands:
   nsc:

@@ -1,11 +1,11 @@
 package com.blank038.neteasestorecore.data.execute.impl;
 
+import com.aystudio.core.bukkit.util.mysql.MySqlStorageHandler;
 import com.blank038.neteasestorecore.NeteaseStoreCore;
 import com.blank038.neteasestorecore.data.StoreData;
 import com.blank038.neteasestorecore.data.execute.IStoreRecord;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.mc9y.blank038api.util.mysql.MySqlStorageHandler;
 
 import java.sql.SQLException;
 

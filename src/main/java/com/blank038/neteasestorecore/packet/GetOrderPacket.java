@@ -101,7 +101,7 @@ public class GetOrderPacket implements Runnable {
                     player.sendMessage(NeteaseStoreCore.getString("message.prefix", false)
                             + CommonUtil.randomString(NeteaseStoreCore.getInstance().getConfig().getStringList("message.no_store")));
                 }
-                NeteaseStoreCore.getInstance().getLogger().info("查询收货异常 " + this.PLAYER_UUID);
+                NeteaseStoreCore.getInstance().getLogger().info("查询收货异常 " + this.PLAYER_UUID + " -> " + object);
             }
         } catch (IOException e) {
             e.printStackTrace();
